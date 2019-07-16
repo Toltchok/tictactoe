@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" defer>
+  </head>
+  <body>
+      <div class="jumbotron jumbotron-fluid">
+        <h1 id="text" class="display-4">Tic Tac Toe Game</h1>
+        <p class="lead"></p>
+        <hr class="my-4">
+        <p id="text">Clique nos quadrados mais de uma vez para escolher X, O ou nulo! Vence aquele que tiver três caractéres iguais seguidos.</p>
+        <p id ="text">Aperte no botão de reset para que a table seja limpada.</p>
+        <div class="container text-center">
+              <input id="button" class="btn btn-outline-dark" type="reset" value="Reset">
+        </div>
+      </div>
+      <div class="container">
+        <table id="table" border>
+            <tr>
+                  <td id="cell"> </td>
+                  <td id="cell"></td>
+                  <td id="cell"></td>
+                </tr>
+                <tr>
+                  <td id="cell"></td>
+                  <td id="cell"></td>
+                  <td id="cell"></td>
+                </tr>
+                <tr>
+                  <td id="cell"></td>
+                  <td id="cell"></td>
+                  <td id="cell"></td>
+                </tr>
+            </table>
+      </div>
+          <script src="javascript.js" charset="utf-8"></script>
+  </body>
+</html>

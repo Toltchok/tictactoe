@@ -1,0 +1,22 @@
+#text{
+  text-align: center;
+}
+.jumbotron{
+  background-color: #a177bd;
+}
+
+#table{
+border-color: black;
+margin-left:auto;
+margin-right:auto;
+margin-bottom: 10px;
+}
+
+td{
+  width:120px;
+  height: 120px;
+  font-size: 75px;
+  font-family: fantasy;
+  text-align: center;
+
+}
